@@ -1,16 +1,16 @@
 # Get_next_line
 
-🧜‍♀️**Read**:Daha önce bir dosyaya yazılmış verileri okur. Normal bir dosyanın dosyanın sonundan önce herhangi bir kısmı yazılmamışsa, read() 0 değerine sahip baytlar döndürecektir.
+🧜‍♀️Read**:Daha önce bir dosyaya yazılmış verileri okur. Normal bir dosyanın dosyanın sonundan önce herhangi bir kısmı yazılmamışsa, read() 0 değerine sahip baytlar döndürecektir.
 
-🧜‍♀️**Static Char:**Kullanıldığı yere bağlı olarak **`static`**
- anahtar sözcüğünün iki değişik anlamı vardır. Blok içinde, **`static`**
+🧜‍♀️Static Char:Kullanıldığı yere bağlı olarak static
+ anahtar sözcüğünün iki değişik anlamı vardır. Blok içinde, static
  kalıcı
- anlamına gelir. Yani, blok içinde değişkenlerin tanımlarının önüne **`static`**
+ anlamına gelir. Yani, blok içinde değişkenlerin tanımlarının önüne static
  anahtar sözcüğü kullanılırsa, bu değişkenlerin değerleri blok sona erdiğinde yok olmazlar. Blok dışına çıkıldığında değişkenler erişilmez hale gelir, fakat blok tekrar işletilirse, blok sona erdiği zamanki değerleriyle programın yürütülmesine katılırlar.
 
-🧜‍♀️**BUFFER_SIZE**:Kaçar kaçar saymasını istiyorsam o kadar değer veririz.
+🧜‍♀️BUFFER_SIZE**:Kaçar kaçar saymasını istiyorsam o kadar değer veririz.
 
-👉**char *get_next_line(int fd)**
+👉char *get_next_line(int fd)
 
 🧜‍♀️2 tane değişken tanımlıyoruz staticle tanımlamamızın sebebi içinde girdiğimiz baştaki değeri tutmamızı sağlamak.
 
@@ -18,7 +18,7 @@
 
 🧜‍♀️Dosyamı ve içindekileri *read_to_left_str’ye gönderdim.
 
-👉**char *ft_read_to_left_str(int fd, char *left_str)**
+👉char *ft_read_to_left_str(int fd, char *left_str)**
 
 🧜‍♀️2 tane değişken tanımladım.
 
@@ -39,13 +39,13 @@
 
 🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” atar ve başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
 
- **👉char *get_next_line(int fd)** 
+ 👉char *get_next_line(int fd)
 
 🧜‍♀️Eğer left_str oluşmadıysa “NULL” döndürür.
 
 🧜‍♀️left_str’mizi ft_get_line’ye gönderir.
 
-👉**char	*ft_get_line(char *left_str)**
+👉char	*ft_get_line(char *left_str)**
 
 🧜‍♀️2 tane değişken tanımlarız.
 
@@ -61,11 +61,11 @@
 
 🧜‍♀️Sonuna “\0” ekleyip dizemizi dönüyoruz.
 
-👉**char *get_next_line(int fd)**
+👉char *get_next_line(int fd)
 
 🧜‍♀️left_str’mizi ft_new_left_str’ye göndeeriyoruz.
 
-👉**char	*ft_new_left_str(char *left_str)**
+👉char	*ft_new_left_str(char *left_str)
 
 🧜‍♀️3 tane değişken tanımlıyoruz. 
 
