@@ -35,7 +35,7 @@
 
 
 
-🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” [atar.Ve](http://atar.Ve) başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
+🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” atar ve başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
 
  **👉char *get_next_line(int fd)** 
 
