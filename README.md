@@ -1,6 +1,6 @@
 # Get_next_line
 
-🧜‍♀️Read**:Daha önce bir dosyaya yazılmış verileri okur. Normal bir dosyanın dosyanın sonundan önce herhangi bir kısmı yazılmamışsa, read() 0 değerine sahip baytlar döndürecektir.
+🧜‍♀️Read:Daha önce bir dosyaya yazılmış verileri okur. Normal bir dosyanın dosyanın sonundan önce herhangi bir kısmı yazılmamışsa, read() 0 değerine sahip baytlar döndürecektir.
 
 🧜‍♀️Static Char:Kullanıldığı yere bağlı olarak static
  anahtar sözcüğünün iki değişik anlamı vardır. Blok içinde, static
