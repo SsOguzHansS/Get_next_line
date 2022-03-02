@@ -1,5 +1,7 @@
 # Get_next_line
 
+🧜‍♀️**Read**:Daha önce bir dosyaya yazılmış verileri okur. Normal bir dosyanın dosyanın sonundan önce herhangi bir kısmı yazılmamışsa, read() 0 değerine sahip baytlar döndürecektir.
+
 🧜‍♀️**Static Char:**Kullanıldığı yere bağlı olarak **`static`**
  anahtar sözcüğünün iki değişik anlamı vardır. Blok içinde, **`static`**
  kalıcı
@@ -30,12 +32,13 @@
 
 🧜‍♀️Read ile “BUFFER_SIZE” kadar okuyor buff’ın içine atıyor.rd_bytes’a da “BUFFER_SIZE” boyutunu atıyor.
 
-=READ=<img width="483" alt="Screen Shot 2022-03-02 at 4 54 50 PM" src="https://user-images.githubusercontent.com/97165826/156384258-85d9ec95-402b-4ca0-8a9e-e1fb68562b2b.png">
+=READ=
 
+![Screen Shot 2022-03-02 at 4.54.50 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5590aafe-867a-4c01-9ce0-5a901ab20438/Screen_Shot_2022-03-02_at_4.54.50_PM.png)
 
+🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” [atar.Ve](http://atar.Ve) başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
 
-
-🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” atar ve başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
+---
 
  **👉char *get_next_line(int fd)** 
 
