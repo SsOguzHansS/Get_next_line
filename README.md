@@ -33,8 +33,9 @@
 🧜‍♀️Read ile “BUFFER_SIZE” kadar okuyor buff’ın içine atıyor.rd_bytes’a da “BUFFER_SIZE” boyutunu atıyor.
 
 =READ=
+<img width="483" alt="Screen Shot 2022-03-02 at 4 54 50 PM" src="https://user-images.githubusercontent.com/97165826/156412685-0c7a569a-0c9a-439c-b660-06770c12de76.png">
 
-![Screen Shot 2022-03-02 at 4.54.50 PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5590aafe-867a-4c01-9ce0-5a901ab20438/Screen_Shot_2022-03-02_at_4.54.50_PM.png)
+
 
 🧜‍♀️Eğer “-1”e eşit olursa buff’ı freeleyip “NULL” döndürür.Sonrasında buff’ın sonuna “NULL” [atar.Ve](http://atar.Ve) başta boş olan left_str’ye buff’ı atar.Buff’ bellekte yer kaplamaması için free’ler ve left_str’de yeni oluşan dizeyi döner.
 
