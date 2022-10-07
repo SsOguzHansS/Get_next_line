@@ -63,7 +63,7 @@
 
 👉char *get_next_line(int fd)
 
-🧜‍♀️left_str’mizi ft_new_left_str’ye göndeeriyoruz.
+🧜‍♀️left_str’mizi ft_new_left_str’ye gönderiyoruz.
 
 👉char	*ft_new_left_str(char *left_str)
 
